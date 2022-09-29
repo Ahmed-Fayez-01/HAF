@@ -10,6 +10,7 @@ class StartPage extends StatelessWidget {
     var width = MediaQuery.of(context).size.width;
     var height = MediaQuery.of(context).size.height;
     return Scaffold(
+      backgroundColor: Colors.white,
       body: SafeArea(
         child: Padding(
           padding: EdgeInsets.all(width * .1),
@@ -40,8 +41,8 @@ class StartPage extends StatelessWidget {
               Expanded(
                   child: Center(
                       child: Image.asset(
-                "assets/images/splach.png",
-                width: width * .65,
+                "assets/images/splash1.gif",
+                width: width * .75,
               ))),
               Center(
                 child: Container(
@@ -52,8 +53,8 @@ class StartPage extends StatelessWidget {
                     boxShadow: <BoxShadow>[
                       BoxShadow(
                         color: Colors.grey.withOpacity(.7),
-                        blurRadius: 1,
-                        offset: const Offset(1, 2),
+                        blurRadius: 5,
+                        offset: const Offset(.2, 1),
                       ),
                     ],
                   ),

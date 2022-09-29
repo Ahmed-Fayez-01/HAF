@@ -36,6 +36,11 @@ dependencies:
   cupertino_icons: ^1.0.2
   bloc: ^8.0.1
   flutter_bloc: ^8.0.1
+  email_validator: ^2.0.0-nullsafety
+  dropdown_button2:
+  image_picker: ^0.8.5
+  fluttertoast: ^8.0.9
+
 
 dev_dependencies:
   flutter_test:

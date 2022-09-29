@@ -4,6 +4,8 @@ var kTextColor = Colors.black.withOpacity(.7);
 const kTextLightColor = Color(0xFFACACAC);
 
 const kDefaultPaddin = 20.0;
+int pageNum=0;
+var selectedIndexes = [];
 List<String> categories = ["All", "Data Communication", "Wireless", "C++","Data Structure","Database","Advanced Database"];
 // By default our first item will be selected
 int selectedIndex = 0;
